@@ -1,0 +1,9 @@
+{
+    "graphs": {
+      "payment_with_human_aproval": "src/agent.py:agent"
+    },
+    "dependencies": ["."],
+    "env": "./.env",
+    "python_version": "3.13"
+  }
+  
