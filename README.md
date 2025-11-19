@@ -2,7 +2,7 @@
 
 Learn how to seamlessly integrate **PayLink payments** into your **LangChain-powered AI agent** with human-in-the-loop approval workflows.
 
-## 🎯 Overview
+## Overview
 
 This tutorial demonstrates how to add real-world monetization capabilities to your AI systems by integrating PayLink payment processing with LangChain agents. You'll learn how to:
 
@@ -13,28 +13,28 @@ This tutorial demonstrates how to add real-world monetization capabilities to yo
 
 Whether you're building chatbots, autonomous agents, or workflow automations, this project shows you exactly how to add payment processing to your AI systems.
 
-## ✨ Features
+## Features
 
-- 🤖 **LangChain Agent Integration**: Seamlessly invoke PayLink payments from within your AI agent
-- 👤 **Human-in-the-Loop Approval**: Review and approve payments before execution using `HumanInTheLoopMiddleware`
-- 🛒 **Order Management**: Example tool for managing orders and payment status
-- 🔒 **Secure Payment Processing**: Leverage PayLink's secure payment infrastructure
+- **LangChain Agent Integration**: Seamlessly invoke PayLink payments from within your AI agent
+- **Human-in-the-Loop Approval**: Review and approve payments before execution using `HumanInTheLoopMiddleware`
+- **Order Management**: Example tool for managing orders and payment status
+- **Secure Payment Processing**: Leverage PayLink's secure payment infrastructure
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **PayLink** - [Payment infrastructure for the AI economy](https://www.paylinkai.app/)
 - **LangChain** - AI agent framework
 - **LangGraph** - Agent orchestration
 - **Python 3.13+** - Programming language
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.13 or higher
 - A PayLink account (sign up at [PayLink](https://www.paylinkai.app/))
 - PayLink API credentials (API key and secret)
 - OpenAI API key (for the LLM)
 
-## 🔧 Installation
+## Installation
 
 1. **Clone the repository** (if applicable):
    ```bash
@@ -63,7 +63,7 @@ Whether you're building chatbots, autonomous agents, or workflow automations, th
    OPENAI_API_KEY=your_openai_api_key
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 payment_with_human_aproval/
@@ -77,7 +77,7 @@ payment_with_human_aproval/
 └── README.md                # This file
 ```
 
-## 🎓 Key Concepts
+## Key Concepts
 
 ### 1. PayLink Tools Integration
 
@@ -132,7 +132,7 @@ def get_orders(
     # Implementation...
 ```
 
-## 🚦 Usage
+## Usage
 
 ### Running the Agent
 
@@ -156,36 +156,36 @@ Once the server is running, you can interact with your agent through the LangGra
 4. Agent: "I found 2 pending orders. Would you like me to process payment for any of them?"
 5. User: "Yes, process payment for Item 2"
 6. Agent: *Prepares payment request and pauses for approval*
-7. System: "⚠️ Approval Required: Review the payment request for Item 2 (400 Ksh)"
+7. System: "Approval Required: Review the payment request for Item 2 (400 Ksh)"
 8. User: *Reviews and approves*
 9. Agent: *Executes payment via PayLink*
 
-## 🔐 Security Best Practices
+## Security Best Practices
 
 - **Never commit `.env` files** - Add `.env` to your `.gitignore`
 - **Use environment variables** for all sensitive credentials
 - **Keep API keys secure** and never expose them in client-side code
 
-## 📚 Learn More
+## Learn More
 
 - [PayLink Website](https://www.paylinkai.app/) - Learn more about PayLink
 - [PayLink Documentation](https://paylink-c15dc1ba.mintlify.app/) - Full API documentation and guides
 - [LangChain Documentation](https://python.langchain.com)
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## 📝 License
+## License
 
 [Add your license here]
 
-## 🎥 Video Tutorial
+## Video Tutorial
 
 This project accompanies a video tutorial. Watch it to see the integration in action!
 
 ---
 
-**Built with ❤️ using PayLink and LangChain**
+**Built with PayLink and LangChain**
 
